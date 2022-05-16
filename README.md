@@ -12,11 +12,11 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/Okr7Tk0L7ZT08SXXLtgf">
       Solution
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-challenge}">
+    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
       Challenge
     </a>
   </h3>
@@ -50,7 +50,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [HTML]
+- HTML
 - [CSS](https://web.dev/learn/css/)
 - [Responsive Design](https://web.dev/learn/design/)
 
