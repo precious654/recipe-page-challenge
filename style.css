@@ -5,6 +5,10 @@
 
 @media (min-width: 1200px) {
 
+  header b{
+    font-size: 48px;
+  }
+
   main{
     position: relative;
     inline-size: 969px;
@@ -16,13 +20,67 @@
     right: 20px;
     inline-size: 216px;
     block-size: 367px;
-    border: 1px solid black;
     border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+  }
+
+  .bullet{
+    inline-size: 36px;
+    block-size: 36px;
+    border-radius: 6px;
+  }
+
+  .yield{
+    margin-inline-start: 50px;
+    padding-block-start: 57px;
+  }
+
+  .prep-time{
+    margin-block-start: 35px;
+    margin-inline-start: 50px;
+    margin-block-end: 35px;
+  }
+
+  .cook-time{
+    margin-inline-start: 50px;
+    margin-block-end: 35px;
+  }
+
+  .total-time{
+    margin-inline-start: 50px;
+    margin-block-end: 35px;
   }
 
   .time{
     flex-direction: column;
   }
+
+  .info{
+    inline-size: 590px;
+  }
+
+  .writing{
+    inline-size: 528px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  header b{
+    font-size: 20px;
+    margin-inline-start: 20px;
+  }
+
+  .bullet{
+    inline-size: 15px;
+    block-size: 15px;
+    border-radius: 5px;
+    padding-block-end: 20px;
+    padding-inline-start: 12px;
+    padding-inline-end: 12px;
+  }
+
 
 }
 
@@ -50,14 +108,38 @@ a{
   text-decoration: none;
 }
 
-header b {
-  font-size: 48px;
+
+aside{
+  margin-inline-start: 10px;
+}
+
+footer{
+  text-align: center;
+  color: #828282;
+}
+
+footer a{
+  color: #828282;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.pt{
+  margin-inline-start: 10px;
+  margin-block-start: 20px;
+  margin-block-end: 10px;
 }
 
 .info{
   display: block;
-  inline-size: 590px;
   margin-inline-start: 30px;
+  margin-block-end: 10px;
+}
+
+.image{
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
 }
 
 .headings{
@@ -77,17 +159,19 @@ header b {
 }
 
 .bullet{
-  display: block;
-  margin-inline-end: 10px;
+  display: inline-block;
+  margin-inline-end: 30px;
   margin-inline-start: 10px;
   background-color: #F2994A;
-  inline-size: 36px;
-  block-size: 36px;
-  border-radius: 6px;
   color: #FFFFFF;
   font-family: 'Playfair Display', serif;
   font-size: 24px;
   text-align: center;
+}
+
+.yield{
+  margin-block-start: 10px;
+  margin-block-end: 10px;
 }
 
 .font{
@@ -105,6 +189,10 @@ header b {
 
 .points{
   display: flex;
-  margin-block-start: 10px;
-  margin-block-end: 10px;
+  margin-block-start: 30px;
+  margin-block-end: 30px;
+}
+
+.writing{
+  display: inline-block;
 }
